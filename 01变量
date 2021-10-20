@@ -1,0 +1,31 @@
+# 一、变量
+# 变量的使用
+# 原则：先定义，后引用
+# name = 'xia'  # 定义
+# print(name)  # 引用
+# print(id(name))
+# print(type(name))
+# ctrl+d 快速复制
+# ctrl+? 快速注释
+# 二、基本数据类型
+# 1、数据类型，整型int和浮点型float
+# print(10 + 3.3)  # int与float之间可以相加
+# 2、字符串类型str
+# 字符串的嵌套，注意：外层用双引号，内层应该用单引号,反正亦然
+# 例如：print（"my name is 'egon'"）
+# print('my name is "egon"')
+# print("my name is 'egon'")
+# print('my name is \'egon\'')  # \为转义符号
+# 3、列表
+# l = [10, 3.1, 'aaa', ['bbb', 'ccc']]
+# print(l)
+# print(l[1])
+# print(l[2])
+# print(l[3][1])  # 列表的嵌套取值
+# 4、字典类型：key对应值，其中key通常为字符串类型，所以key对值可以有描述性的功能。
+# 作用：用来存多个值，每个值都有唯一一个key与其对应，key对值有描述性。
+# 定义：在{}内用逗号分开各多个key:value
+# d = {'a': 1, 'b': 2}
+
+# print(d['b'])
+# 5、布尔bool类型
